@@ -1,7 +1,7 @@
 class BoringSSL < Formula
   desc "Google fork of OpenSSL"
   homepage "https://boringssl.googlesource.com/boringssl"
-  url "https://boringssl.googlesource.com/boringssl.git"
+  url "https://boringssl.googlesource.com/boringssl.git",
       :revision => "b29b21a81b32ec273f118f589f46d56ad3332420"
   version "10.0.6"
   head "https://boringssl.googlesource.com/boringssl.git"
