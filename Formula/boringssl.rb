@@ -6,7 +6,7 @@ class BoringSSL < Formula
   version "10.0.6"
   head "https://boringssl.googlesource.com/boringssl.git"
 
-  key_only <<~EOS
+  keg_only <<~EOS
     Apple provides an old OpenSSL, which conflicts with this.
     It also conflicts with Homebrew's shipped OpenSSL and LibreSSL
   EOS
